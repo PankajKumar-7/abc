@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-image: url(flowers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:left;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    /* background-image: url(clouds.jpg); */
+    background-size:cover;
+    background-position:left;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+}
+#abc{
+    font-size: larger;
+    font-weight:bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-style: oblique;
+    z-index: 1;
+}
+
+h2 {
+    margin: 20px 0;
+    color: #8d1919;
+}
+
+.gallery {
+    padding: 20px;
+
+}
+
+.image-grid {
+    display: grid;
+    backdrop-filter:blur(25px);
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    background-image: url(flowers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-grid img {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.image-grid img:hover {
+    transform: scale(1.05);
+}
+
+.message {
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcccb;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#quote{
+    font-size: larger;
+    font-weight:bolder;
+}
