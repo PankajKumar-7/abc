@@ -6,10 +6,10 @@
 
 body {
     font-family:'Courier New', Courier, monospace;
-    background-image: url(flowers.jpg);
+    background-image: url(clouds.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:left;
+    background-position:center;
     color: #333;
     line-height: 1.6;
 }
@@ -40,10 +40,13 @@ h1 {
 h2 {
     margin: 20px 0;
     color: #8d1919;
+    background-color: rgb(255, 182, 249);
+    text-align: center;
+    padding: 10px;
 }
 
 .gallery {
-    padding: 20px;
+    padding: 30px;
 
 }
 
@@ -52,7 +55,6 @@ h2 {
     backdrop-filter:blur(25px);
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 15px;
-    background-image: url(flowers.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -83,6 +85,7 @@ button {
     cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s;
+    margin-top: 10px;
 }
 
 button:hover {
@@ -91,13 +94,24 @@ button:hover {
 
 footer {
     text-align: center;
+    font-size: larger;
     padding: 20px;
-    background-color: #ffcccb;
+    background-image: url(clouds.jpg);
+    background-size: cover;
     position: relative;
+    font-weight:bolder;
     bottom: 0;
     width: 100%;
 }
 #quote{
     font-size: larger;
+    display: inline-block;
     font-weight:bolder;
+    background-image: url(f.jpeg);
+    background-size: cover;
+    color: #000000;
+    padding: 10px;
+}
+#boody{
+    background-image: url(nature.jpg);
 }
